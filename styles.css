@@ -1,0 +1,49 @@
+*{
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    margin: 0;
+}
+
+body{
+    background-color: #FFFFFF;
+    height: 100vh;
+}
+
+a{
+    /* this removes the line under the links */
+    text-decoration: none;
+    color:black;
+}
+  
+ul{
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #CDB4DB;
+    padding: 5vh;
+}
+
+.footer{
+    background-color: #CDB4DB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 5vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar{
+    background-color: #FFAFCC;
+    max-width: 200px;
+    
+}
+
